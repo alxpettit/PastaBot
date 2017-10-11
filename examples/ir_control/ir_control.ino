@@ -3,6 +3,7 @@
 
 // Makes PastaBot respond to commands given via infared
 // instead of functioning autonomously
+// Requires IRRemote Arduino Library (https://github.com/z3t0/Arduino-IRremote)
 
 /*
 
@@ -37,7 +38,7 @@ void setup()
 {
   // Initialize pins associated with
   // PastaBot motor control
-  roverbotSetup();
+  pastabotSetup();
   // Initialize IR input stuff
   irrecv.enableIRIn();
 }
