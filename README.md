@@ -1,6 +1,6 @@
 # PastaBot
 
-[Build Status](https://travis-ci.org/alxpettit/PastaBot.svg?branch=master)
+[![Build Status](https://travis-ci.org/alxpettit/PastaBot.svg?branch=master)]
 
 A simple roverbot design with a completely arbitrary name
 
