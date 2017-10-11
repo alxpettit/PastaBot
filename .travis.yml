@@ -1,0 +1,9 @@
+env:
+	- PLATFORMIO_CI_SRC=examples/ir_control
+	- PLATFORMIO_CI_SRC=examples/random_walk
+
+install:
+	- pip install -U platformio
+
+script:
+	- platformio ci --lib="." --board=uno
