@@ -2,8 +2,8 @@
 #include "pastabot.h"
 
 void setup () {
- roverbotSetup(); 
- // if analog input pin 0 is unconnected, random analog
+ pastabotSetup(); 
+ // if analog input pin 6 is unconnected, random analog
  // noise will cause the call to randomSeed() to generate
  // different seed numbers each time the sketch runs.
  // randomSeed() will then shuffle the random function.
