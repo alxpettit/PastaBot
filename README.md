@@ -4,7 +4,7 @@
 
 A simple roverbot design with a completely arbitrary name.
 
-![Standard Pastabot](wiki/images/pastabot-standard.jpg)
+![Standard Pastabot](wiki/images/pastabot-standard.png)
 
 Instructions & documentation coming soon! :)
 
