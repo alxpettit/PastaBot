@@ -8,13 +8,11 @@ cache:
     directories:
         - "~/.platformio"    
 
-
 env:
-	- PLATFORMIO_CI_SRC=examples/ir_control
-	- PLATFORMIO_CI_SRC=examples/random_walk
-
+    - PLATFORMIO_CI_SRC=examples/ir_control
+    - PLATFORMIO_CI_SRC=examples/random_walk
 install:
-	- pip install -U platformio
+    - pip install -U platformio
 
 script:
-	- platformio ci --lib="." --board=uno
+  - platformio ci --lib="." --board=uno
