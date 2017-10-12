@@ -9,16 +9,11 @@ cache:
         - "~/.platformio"    
 
 env:
-    # hopefully someday, we will be able to uncomment this line without headaches
-    # but for now, the build fails for this example, due to `platformio` pulling the wrong IRremote library.
-    # I don't know much about `platformio` OR travis-ci, so I'm not sure how to fix this.
-    # See: https://tinyurl.com/ir-control-ino-error-0
     - PLATFORMIO_CI_SRC=examples/ir_control
     - PLATFORMIO_CI_SRC=examples/random_walk
 install:
     - pip install -U platformio
 
 script:
-  - platformio lib --global uninstall RobotIRremote 
   - platformio lib --global install z3t0/Arduino-IRremote
   - platformio ci --lib="." --board=uno
