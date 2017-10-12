@@ -12,6 +12,7 @@ env:
     - PLATFORMIO_CI_SRC=examples/ir_control
     - PLATFORMIO_CI_SRC=examples/random_walk
 install:
+    - git clone "https://github.com/z3t0/Arduino-IRremote"
     - pip install -U platformio
 
 script:
